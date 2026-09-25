@@ -63,6 +63,7 @@ def main():
             due.append((p['scheduled'], f, p))
     due.sort()
     print(f'{now:%Y-%m-%d %H:%M} KST · 발행 대기 {len(due)}건 · 이번 실행 최대 {MAX_PER_RUN}건')
+    print('연결 확인: @' + api('GET', 'me', fields='username')['username'])  # 토큰 점검(읽기만)
     failed = 0
     for _, f, p in due[:MAX_PER_RUN]:
         try:
