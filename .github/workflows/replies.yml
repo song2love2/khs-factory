@@ -1,0 +1,47 @@
+name: 스레드 댓글 자동답글
+
+on:
+  schedule:
+    - cron: '0 3 * * *'    # 매일 12:00 KST
+    - cron: '0 9 * * *'    # 매일 18:00 KST
+    - cron: '30 14 * * *'  # 매일 23:30 KST (21:30 발행 2시간 뒤)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'DRY_RUN (답글은 안 올리고 로그만)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: replies
+  cancel-in-progress: false
+
+jobs:
+  replies:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: 규칙 자가시험 (모의 데이터, 네트워크 없음)
+        run: python tests/test_engines.py > /dev/null
+      - name: 댓글 확인·답글
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: python reply_bot.py
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "khs-factory-bot"
+          git config user.email "khs-factory-bot@users.noreply.github.com"
+          git add -A state reports
+          git diff --cached --quiet && exit 0
+          git commit -m "댓글 처리 기록 $(date -u +%F\ %H:%M)"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 10; done

@@ -1,0 +1,436 @@
+{
+ "GET me": {
+  "id": "U1",
+  "username": "khsjelly_funny"
+ },
+ "GET me/threads": {
+  "data": [
+   {
+    "id": "P0930",
+    "timestamp": "2026-09-30T12:31:00+0000",
+    "permalink": "https://www.threads.com/@khsjelly_funny/post/P0930",
+    "text": "솔직히 레몬맛은 먹기 전에 한 번 비춰보게 됨\n...",
+    "media_type": "VIDEO"
+   },
+   {
+    "id": "P1001",
+    "timestamp": "2026-10-01T12:31:00+0000",
+    "permalink": "https://www.threads.com/@khsjelly_funny/post/P1001",
+    "text": "울산 작업실, 오늘도 혼자 한 판 굳히는 중",
+    "media_type": "VIDEO"
+   },
+   {
+    "id": "P1002",
+    "timestamp": "2026-10-02T12:31:00+0000",
+    "permalink": "https://www.threads.com/@khsjelly_funny/post/P1002",
+    "text": "밸런스 게임 하나만 하자\n\n① 평생 딸기맛만\n② 평생 키위맛만\n\n번호랑 이유 한 줄씩 남겨줘 🍓",
+    "media_type": "TEXT_POST"
+   },
+   {
+    "id": "PMAN",
+    "timestamp": "2026-10-02T03:00:00+0000",
+    "permalink": "https://www.threads.com/@khsjelly_funny/post/PMAN",
+    "text": "수동으로 올린 글",
+    "media_type": "IMAGE"
+   },
+   {
+    "id": "POLD",
+    "timestamp": "2026-08-01T03:00:00+0000",
+    "permalink": "x",
+    "text": "오래된 글",
+    "media_type": "TEXT_POST"
+   },
+   {
+    "id": "PREP",
+    "timestamp": "2026-10-02T03:00:00+0000",
+    "permalink": "x",
+    "text": "",
+    "media_type": "REPOST_FACADE"
+   }
+  ]
+ },
+ "GET P0930/conversation": {
+  "data": [
+   {
+    "id": "C01",
+    "username": "jelly_lover",
+    "text": "와 색감 미쳤다 너무 예쁘다",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@jelly_lover/post/C01",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C02",
+    "username": "khsjelly_funny",
+    "text": "고마워!",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@khsjelly_funny/post/C02",
+    "is_reply_owned_by_me": true,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C03",
+    "username": "angry_user",
+    "text": "주문했는데 5일째 안 와요 환불해주세요",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@angry_user/post/C03",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C04",
+    "username": "mom_kim",
+    "text": "우리 아기 먹여도 되나요?",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@mom_kim/post/C04",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C05",
+    "username": "spam_bot",
+    "text": "부업으로 월 300 버는 법 DM 주세요 https://spam.example",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@spam_bot/post/C05",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C06",
+    "username": "jelly_lover",
+    "text": "나도 레몬 제일 좋아해 ㅋㅋ",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@jelly_lover/post/C06",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C07",
+    "username": "smiley",
+    "text": "😍😍",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@smiley/post/C07",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C08",
+    "username": "hidden_guy",
+    "text": "숨김 처리된 댓글",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@hidden_guy/post/C08",
+    "is_reply_owned_by_me": false,
+    "hide_status": "HIDDEN"
+   },
+   {
+    "id": "C09",
+    "username": "q_user",
+    "text": "이거 칼로리 얼마나 돼요?",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@q_user/post/C09",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C10",
+    "username": "old_friend",
+    "text": "맛있어 보여",
+    "timestamp": "2026-09-30T13:00:00+0000",
+    "permalink": "https://www.threads.com/@old_friend/post/C10",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   }
+  ]
+ },
+ "GET P1001/conversation": {
+  "data": [
+   {
+    "id": "C11",
+    "username": "allergy_q",
+    "text": "원재료에 복숭아 들어가요? 알레르기 있어서요",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@allergy_q/post/C11",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C12",
+    "username": "worker",
+    "text": "ㅋㅋㅋ 팔 뻐근한 거 완전 공감",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@worker/post/C12",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C13",
+    "username": "curious",
+    "text": "무슨 맛이 제일 맛있어?",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@curious/post/C13",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C14",
+    "username": "price_q",
+    "text": "2박스 사면 할인 돼요?",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@price_q/post/C14",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C15",
+    "username": "vague",
+    "text": "흠 그렇구나",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@vague/post/C15",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   }
+  ]
+ },
+ "GET P1002/conversation": {
+  "data": [
+   {
+    "id": "C21",
+    "username": "b_user1",
+    "text": "1번! 딸기는 못 참지",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@b_user1/post/C21",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C22",
+    "username": "b_user2",
+    "text": "② 키위 새콤한 거 최고",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@b_user2/post/C22",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C23",
+    "username": "b_user3",
+    "text": "2번",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@b_user3/post/C23",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C24",
+    "username": "b_user4",
+    "text": "둘 다 싫은데 ㅋㅋ",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@b_user4/post/C24",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C25",
+    "username": "swear",
+    "text": "ㅅㅂ 이게 뭐임",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@swear/post/C25",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   },
+   {
+    "id": "C26",
+    "username": "b_user1",
+    "text": "아 근데 키위도 좋다",
+    "timestamp": "2026-10-03T01:00:00+0000",
+    "permalink": "https://www.threads.com/@b_user1/post/C26",
+    "is_reply_owned_by_me": false,
+    "hide_status": "NOT_HUSHED"
+   }
+  ]
+ },
+ "GET PMAN/conversation": {
+  "data": []
+ },
+ "GET P0930/insights": {
+  "data": [
+   {
+    "name": "views",
+    "period": "lifetime",
+    "values": [
+     {
+      "value": 1520
+     }
+    ]
+   },
+   {
+    "name": "likes",
+    "period": "lifetime",
+    "values": [
+     {
+      "value": 48
+     }
+    ]
+   },
+   {
+    "name": "replies",
+    "period": "lifetime",
+    "values": [
+     {
+      "value": 10
+     }
+    ]
+   },
+   {
+    "name": "reposts",
+    "period": "lifetime",
+    "values": [
+     {
+      "value": 3
+     }
+    ]
+   },
+   {
+    "name": "quotes",
+    "period": "lifetime",
+    "values": [
+     {
+      "value": 1
+     }
+    ]
+   },
+   {
+    "name": "shares",
+    "period": "lifetime",
+    "values": [
+     {
+      "value": 5
+     }
+    ]
+   }
+  ]
+ },
+ "GET P1001/insights": {
+  "data": [
+   {
+    "name": "views",
+    "total_value": {
+     "value": 640
+    }
+   },
+   {
+    "name": "likes",
+    "total_value": {
+     "value": 12
+    }
+   },
+   {
+    "name": "replies",
+    "total_value": {
+     "value": 5
+    }
+   },
+   {
+    "name": "reposts",
+    "total_value": {
+     "value": 0
+    }
+   },
+   {
+    "name": "quotes",
+    "total_value": {
+     "value": 0
+    }
+   },
+   {
+    "name": "shares",
+    "total_value": {
+     "value": 1
+    }
+   }
+  ]
+ },
+ "GET P1002/insights": {
+  "data": [
+   {
+    "name": "views",
+    "values": [
+     {
+      "value": 2210
+     }
+    ]
+   },
+   {
+    "name": "likes",
+    "values": [
+     {
+      "value": 61
+     }
+    ]
+   },
+   {
+    "name": "replies",
+    "values": [
+     {
+      "value": 6
+     }
+    ]
+   },
+   {
+    "name": "reposts",
+    "values": [
+     {
+      "value": 2
+     }
+    ]
+   },
+   {
+    "name": "quotes",
+    "values": [
+     {
+      "value": 0
+     }
+    ]
+   },
+   {
+    "name": "shares",
+    "values": [
+     {
+      "value": 4
+     }
+    ]
+   }
+  ]
+ },
+ "GET PMAN/insights": {
+  "data": [
+   {
+    "name": "views",
+    "values": [
+     {
+      "value": 90
+     }
+    ]
+   },
+   {
+    "name": "likes",
+    "values": [
+     {
+      "value": 2
+     }
+    ]
+   }
+  ]
+ },
+ "GET U1/threads_insights": {
+  "data": [
+   {
+    "name": "followers_count",
+    "total_value": {
+     "value": 37
+    }
+   }
+  ]
+ }
+}

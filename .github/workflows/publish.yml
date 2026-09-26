@@ -31,4 +31,4 @@ jobs:
           git config user.name "khs-factory-bot"
           git config user.email "khs-factory-bot@users.noreply.github.com"
           git add -A queue done
-          git diff --cached --quiet || (git commit -m "발행 기록 $(date -u +%F)" && git push)
+          git diff --cached --quiet || (git commit -m "발행 기록 $(date -u +%F)" && (git pull --rebase origin main || true) && git push)
