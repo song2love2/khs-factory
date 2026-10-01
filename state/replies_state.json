@@ -1,7 +1,24 @@
 {
- "handled": {},
- "user_last": {},
- "post_count": {},
- "post_tpl": {},
- "recent_tpl": []
+ "handled": {
+  "18115919134789398": {
+   "at": "2026-10-02T04:43:34+09:00",
+   "action": "replied",
+   "tpl": "c09",
+   "reply_id": "18003888341991152"
+  }
+ },
+ "user_last": {
+  "mongbee_marketing": "2026-10-02"
+ },
+ "post_count": {
+  "17970082110177899": 1
+ },
+ "post_tpl": {
+  "17970082110177899": [
+   "c09"
+  ]
+ },
+ "recent_tpl": [
+  "c09"
+ ]
 }
