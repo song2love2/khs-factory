@@ -2,7 +2,7 @@ name: 스레드 자동 발행
 
 on:
   schedule:
-    - cron: '30 12 * * *'   # 매일 21:30 KST (UTC 12:30). GitHub 사정으로 몇 분~수십 분 늦을 수 있음
+    - cron: '0 12 * * *'    # 매일 21:00 KST (UTC 12:00) 시작 → 아래 무작위 대기 후 발행(21~24시). GitHub 사정으로 몇 분~수십 분 늦을 수 있음
   workflow_dispatch: {}      # 수동 실행 버튼
 
 permissions:
@@ -21,6 +21,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests
+      - name: 무작위 대기 (0~170분, 정해진 시각에 안 올라가게)
+        if: github.event_name == 'schedule'
+        run: |
+          W=$((RANDOM % 10200)); echo "대기 $((W/60))분"; sleep $W
       - name: 발행
         env:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}

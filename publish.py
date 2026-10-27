@@ -4,7 +4,7 @@ queue/*.json 중 예약시각(scheduled)이 지난 글을 오래된 순으로 �
 - 토큰: 환경변수 THREADS_TOKEN (GitHub Secrets). 절대 출력하지 않는다.
 - 미디어: media/ 파일 → GitHub Pages 공개주소(PAGES_BASE)로 스레드에 넘긴다.
 - 저장소 루트에 PAUSE 파일이 있으면 아무것도 하지 않는다(킬스위치).
-글 형식: {"id","channel":"threads","account":"sub","type","scheduled":"2026-09-30T21:30:00+09:00",
+글 형식: {"id","channel":"threads","account":"sub","type","scheduled":"2026-09-30T21:00:00+09:00",
          "text","media":["media/xxx.mp4" | "media/xxx.jpg"]}
 """
 import os, sys, json, glob, time, shutil, datetime, requests
