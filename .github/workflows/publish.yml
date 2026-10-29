@@ -2,8 +2,9 @@ name: 스레드 자동 발행
 
 on:
   schedule:
-    - cron: '0 12 * * *'    # 매일 21:00 KST (UTC 12:00) 시작 → 아래 무작위 대기 후 발행(21~24시). GitHub 사정으로 몇 분~수십 분 늦을 수 있음
-  workflow_dispatch: {}      # 수동 실행 버튼
+    - cron: '*/30 6-15 * * *'   # UTC 06:00~15:30 = KST 15:00~00:30, 30분마다 깨움. GitHub 예약은 4~6시간 늦게 돌 때가 많아서 여러 번 깨운다.
+                                 # 실제 발행은 publish.py가 그날 목표 시각(21:00~23:40 무작위)이 지난 첫 실행에서 1건만.
+  workflow_dispatch: {}          # 수동 실행 버튼 = 목표 시각 무시하고 바로 1건
 
 permissions:
   contents: write
@@ -21,13 +22,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests
-      - name: 무작위 대기 (0~170분, 정해진 시각에 안 올라가게)
-        if: github.event_name == 'schedule'
-        run: |
-          W=$((RANDOM % 10200)); echo "대기 $((W/60))분"; sleep $W
       - name: 발행
         env:
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
         run: python publish.py
       - name: 발행 기록 저장
         if: always()
