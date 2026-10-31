@@ -12,3 +12,10 @@
 
 - [ ] 🟡 **미분류** · @surimhongeo · 10-30 00:17 — 「스하리~😄」
   - 게시물: [W43-threads-1026](https://www.threads.com/@khsjelly_funny/post/De99rtRlNv0) · 사유: 규칙에 안 걸림 · [댓글 보기](https://www.threads.com/@surimhongeo/post/DfFTzIfGdem)
+
+## 2026-11-01 03:41 KST 실행
+
+- [ ] 🟡 **미분류** · @reelspop.studio · 11-01 02:13 — 「헙 나 오늘 길가다 이 젤리 봤어!」
+  - 게시물: [W43-threads-1028](https://www.threads.com/@khsjelly_funny/post/DfIMPScD2Li) · 사유: 규칙에 안 걸림 · [댓글 보기](https://www.threads.com/@reelspop.studio/post/DfKqsC1H0zE)
+- [ ] 🟡 **미분류** · @reelspop.studio · 11-01 02:15 — 「거기 그 큰 교회인지 성당인지에서 혁신도시 쪽으로 좌회전 하는길에 신호 바로 뒤 건물 2층이었는데… 저 모양이 참 신기하다 그랬는데… 스레드에 뙇 보이다니🫪」
+  - 게시물: [W43-threads-1028](https://www.threads.com/@khsjelly_funny/post/DfIMPScD2Li) · 사유: 규칙에 안 걸림 · [댓글 보기](https://www.threads.com/@reelspop.studio/post/DfKq6-knwX4)
