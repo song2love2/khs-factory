@@ -30,3 +30,8 @@
   - 게시물: [W45-threads-1109](https://www.threads.com/@khsjelly_funny/post/DfhpCpzkd0_) · 사유: 보류 규칙: 아이 언급(어린이 방침) · [댓글 보기](https://www.threads.com/@sesebyeol/post/Dfi3wt0Ec5s)
 - [ ] 🟡 **아이 언급(어린이 방침)** · @gidolss_daily · 11-10 15:46 — 「난 3번 애들은 2번 취향이야♡」
   - 게시물: [W44-threads-1104](https://www.threads.com/@khsjelly_funny/post/DfXNGjuhN-d) · 사유: 보류 규칙: 아이 언급(어린이 방침) · [댓글 보기](https://www.threads.com/@gidolss_daily/post/DfjS4G1kzov)
+
+## 2026-11-11 01:54 KST 실행
+
+- [ ] 🟡 **구매·문의** · @gidolss_daily · 11-10 20:23 — 「어디서 살 수 있어?」
+  - 게시물: [W44-threads-1104](https://www.threads.com/@khsjelly_funny/post/DfXNGjuhN-d) · 사유: 보류 규칙: 구매·문의 · [댓글 보기](https://www.threads.com/@gidolss_daily/post/DfjynP9E93C)

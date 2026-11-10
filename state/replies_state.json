@@ -104,6 +104,12 @@
    "action": "escalated",
    "cls": "yellow",
    "cat": "아이 언급(어린이 방침)"
+  },
+  "18112527983147863": {
+   "at": "2026-11-11T01:54:20+09:00",
+   "action": "escalated",
+   "cls": "yellow",
+   "cat": "구매·문의"
   }
  },
  "user_last": {
