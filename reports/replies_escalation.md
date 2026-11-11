@@ -35,3 +35,8 @@
 
 - [ ] 🟡 **구매·문의** · @gidolss_daily · 11-10 20:23 — 「어디서 살 수 있어?」
   - 게시물: [W44-threads-1104](https://www.threads.com/@khsjelly_funny/post/DfXNGjuhN-d) · 사유: 보류 규칙: 구매·문의 · [댓글 보기](https://www.threads.com/@gidolss_daily/post/DfjynP9E93C)
+
+## 2026-11-11 19:03 KST 실행
+
+- [ ] 🟡 **아이 언급(어린이 방침)** · @gidolss_daily · 11-11 14:39 — 「애들은 모를 자꾸 냉동실로 보내서 서걱하게 먹더라고..ㅎㅎ 아마 2번으로 통합될거야 ㅎㅎ」
+  - 게시물: [W44-threads-1104](https://www.threads.com/@khsjelly_funny/post/DfXNGjuhN-d) · 사유: 보류 규칙: 아이 언급(어린이 방침) · [댓글 보기](https://www.threads.com/@gidolss_daily/post/DflwDDGmdPt)
