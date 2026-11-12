@@ -116,6 +116,12 @@
    "action": "escalated",
    "cls": "yellow",
    "cat": "아이 언급(어린이 방침)"
+  },
+  "17917335381498281": {
+   "at": "2026-11-12T19:28:52+09:00",
+   "action": "escalated",
+   "cls": "yellow",
+   "cat": "미분류"
   }
  },
  "user_last": {

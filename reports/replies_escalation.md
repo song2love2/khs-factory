@@ -40,3 +40,8 @@
 
 - [ ] 🟡 **아이 언급(어린이 방침)** · @gidolss_daily · 11-11 14:39 — 「애들은 모를 자꾸 냉동실로 보내서 서걱하게 먹더라고..ㅎㅎ 아마 2번으로 통합될거야 ㅎㅎ」
   - 게시물: [W44-threads-1104](https://www.threads.com/@khsjelly_funny/post/DfXNGjuhN-d) · 사유: 보류 규칙: 아이 언급(어린이 방침) · [댓글 보기](https://www.threads.com/@gidolss_daily/post/DflwDDGmdPt)
+
+## 2026-11-12 19:28 KST 실행
+
+- [ ] 🟡 **미분류** · @gidolss_daily · 11-12 11:35 — 「그르지 강제 통합이여 ㅎㅎ 냉동실 버젼 먹었어. 난 으른이 됐는지 걍 서걱했어 ㅎㅎ」
+  - 게시물: [W44-threads-1104](https://www.threads.com/@khsjelly_funny/post/DfXNGjuhN-d) · 사유: 규칙에 안 걸림 · [댓글 보기](https://www.threads.com/@gidolss_daily/post/Dfn_0FMmV7J)
