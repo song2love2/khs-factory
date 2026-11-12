@@ -1,9 +1,11 @@
 """경한송 무한공장 — 스레드 자동 발행기 (GitHub Actions가 오후~밤 30분마다 깨움).
 
 GitHub 예약은 4~6시간씩 늦게 돌아서(10-20~29 실측) 한 번만 깨우면 새벽에 올라간다.
-그래서 여러 번 깨우고, 그날의 '목표 시각'(21:00~23:40 사이, 날짜로 정해지는 무작위)이 지난 뒤
+그래서 여러 번 깨우고, 그날의 '목표 시각'(21:00~22:50 사이, 날짜로 정해지는 무작위, 11-12 대표)이 지난 뒤
 처음 깨어난 실행이 1건만 올린다(오늘 글이 대기열에서 빠지면 그날은 끝). 밀린 글이 있으면 목표 시각 뒤 실행마다(30분 간격) 1건씩 따라잡는다.
 새벽 4시 전 실행은 전날 몫으로 친다. 수동 실행(FORCE=1)은 목표 시각을 무시하고 바로 1건.
+[11-12] 주 발행 = 가게 노트북(local_publish.py, 목표 시각에 바로 → 이어서 1시간 활동). GitHub Actions는 예비:
+GRACE_MIN(분)만큼 목표 시각이 더 지나도 안 올라갔을 때만 올린다. 같은 글이 이미 계정에 있으면(텍스트 일치) 다시 안 올리고 done으로만 옮김.
 queue/*.json 중 예약시각(scheduled)이 지난 글을 오래된 순으로 발행하고 done/으로 옮긴다.
 - 토큰: 환경변수 THREADS_TOKEN (GitHub Secrets). 절대 출력하지 않는다.
 - 미디어: media/ 파일 → GitHub Pages 공개주소(PAGES_BASE)로 스레드에 넘긴다.
@@ -26,7 +28,7 @@ def pub_day(t):
 
 
 def target_time(day):
-    m = random.Random(f'khs-{day.isoformat()}').randint(0, 160)   # 21:00 + 0~160분
+    m = random.Random(f'khs-{day.isoformat()}').randint(0, 110)   # 21:00 + 0~110분 (엔진/스레드_시간표.py와 같은 식)
     return datetime.datetime.combine(day, datetime.time(21, 0), KST) + datetime.timedelta(minutes=m)
 
 
@@ -83,12 +85,24 @@ def main():
     print(f'{now:%Y-%m-%d %H:%M} KST · 발행 대기 {len(due)}건(밀린 것 {len(overdue)}) · 오늘 목표 {tgt:%H:%M}')
     if not due:
         print('올릴 글 없음 (오늘 몫 이미 발행했거나 대기열 비어 있음)'); return
-    if not force and now < tgt:
-        print('아직 목표 시각 전 → 대기'); return
+    grace = datetime.timedelta(minutes=int(os.environ.get('GRACE_MIN', '0') or 0))
+    if not force and now < tgt + grace:
+        print(f'아직 목표 시각 전 → 대기 (예비 여유 {grace})'); return
     print('연결 확인: @' + api('GET', 'me', fields='username')['username'])  # 토큰 점검(읽기만)
     failed = 0
+    try:
+        recent = {t.get('text', '').strip(): t for t in api('GET', 'me/threads', fields='id,text,permalink,timestamp', limit=10).get('data', [])}
+    except Exception as e:
+        print(f'최근 글 확인 실패(그냥 진행): {e}'); recent = {}
     for _, f, p in due[:MAX_PER_RUN]:
         try:
+            dup = recent.get(p['text'].strip())
+            if dup:   # 다른 실행기가 이미 올림 → 중복 발행 방지
+                p.update(posted_at=dup.get('timestamp'), post_id=dup['id'], permalink=dup.get('permalink'), account_name='khsjelly_funny', dedup=True)
+                json.dump(p, open(os.path.join(ROOT, 'done', os.path.basename(f)), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+                os.remove(f)
+                print(f'↩ {p["id"]} 이미 올라가 있음 → done으로만 이동 {dup.get("permalink")}')
+                continue
             pid, link, user = post(p)
             p.update(posted_at=datetime.datetime.now(KST).isoformat(timespec='seconds'), post_id=pid, permalink=link, account_name=user)
             json.dump(p, open(os.path.join(ROOT, 'done', os.path.basename(f)), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
