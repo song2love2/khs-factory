@@ -140,6 +140,12 @@
    "action": "replied",
    "tpl": "a05",
    "reply_id": "18083978699415016"
+  },
+  "18107817446633359": {
+   "at": "2026-11-16T19:23:00+09:00",
+   "action": "escalated",
+   "cls": "yellow",
+   "cat": "부정 뉘앙스"
   }
  },
  "user_last": {

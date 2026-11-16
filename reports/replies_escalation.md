@@ -45,3 +45,8 @@
 
 - [ ] 🟡 **미분류** · @gidolss_daily · 11-12 11:35 — 「그르지 강제 통합이여 ㅎㅎ 냉동실 버젼 먹었어. 난 으른이 됐는지 걍 서걱했어 ㅎㅎ」
   - 게시물: [W44-threads-1104](https://www.threads.com/@khsjelly_funny/post/DfXNGjuhN-d) · 사유: 규칙에 안 걸림 · [댓글 보기](https://www.threads.com/@gidolss_daily/post/Dfn_0FMmV7J)
+
+## 2026-11-16 19:23 KST 실행
+
+- [ ] 🟡 **부정 뉘앙스** · @5rola80 · 11-16 10:27 — 「다 싫다...ㅋㅋㅋㅋㅋㅋ 고르는 것조차 싫다. 저 3개를 상상하며 뭐가ㄴㅏ을까 떠올리는 것조차 싫..ㅋㅋㅋ」
+  - 게시물: [W46-threads-1114](https://www.threads.com/@khsjelly_funny/post/DfuXnMLGVgJ) · 사유: 불만일 수 있음 · [댓글 보기](https://www.threads.com/@5rola80/post/DfyLMTRn4cu)
