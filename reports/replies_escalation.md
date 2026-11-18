@@ -50,3 +50,8 @@
 
 - [ ] 🟡 **부정 뉘앙스** · @5rola80 · 11-16 10:27 — 「다 싫다...ㅋㅋㅋㅋㅋㅋ 고르는 것조차 싫다. 저 3개를 상상하며 뭐가ㄴㅏ을까 떠올리는 것조차 싫..ㅋㅋㅋ」
   - 게시물: [W46-threads-1114](https://www.threads.com/@khsjelly_funny/post/DfuXnMLGVgJ) · 사유: 불만일 수 있음 · [댓글 보기](https://www.threads.com/@5rola80/post/DfyLMTRn4cu)
+
+## 2026-11-18 19:54 KST 실행
+
+- [ ] 🟡 **질문** · @gyul___mom · 11-18 16:11 — 「젤리를 만들어? 우와 우와 금손이당!!!」
+  - 게시물: [W46-threads-1117](https://www.threads.com/@khsjelly_funny/post/Df2Cig8md9h) · 사유: 규칙에 없는 질문 — 사람이 답하는 게 안전 · [댓글 보기](https://www.threads.com/@gyul___mom/post/Df38IfaGquW)

@@ -146,6 +146,12 @@
    "action": "escalated",
    "cls": "yellow",
    "cat": "부정 뉘앙스"
+  },
+  "17989610616089872": {
+   "at": "2026-11-18T19:54:14+09:00",
+   "action": "escalated",
+   "cls": "yellow",
+   "cat": "질문"
   }
  },
  "user_last": {
