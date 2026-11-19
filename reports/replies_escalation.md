@@ -55,3 +55,8 @@
 
 - [ ] 🟡 **질문** · @gyul___mom · 11-18 16:11 — 「젤리를 만들어? 우와 우와 금손이당!!!」
   - 게시물: [W46-threads-1117](https://www.threads.com/@khsjelly_funny/post/Df2Cig8md9h) · 사유: 규칙에 없는 질문 — 사람이 답하는 게 안전 · [댓글 보기](https://www.threads.com/@gyul___mom/post/Df38IfaGquW)
+
+## 2026-11-19 19:56 KST 실행
+
+- [ ] 🟡 **부정 뉘앙스** · @gyul___mom · 11-19 12:50 — 「ㅎㅎㅎㅎㅎㅎㅎ 인덕션이라 석쇠에 못구워서 좀 아쉽더라 ㅎㅎ」
+  - 게시물: [W46-threads-1117](https://www.threads.com/@khsjelly_funny/post/Df2Cig8md9h) · 사유: 불만일 수 있음 · [댓글 보기](https://www.threads.com/@gyul___mom/post/Df6J9amGpjt)
