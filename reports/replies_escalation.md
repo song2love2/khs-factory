@@ -60,3 +60,8 @@
 
 - [ ] 🟡 **부정 뉘앙스** · @gyul___mom · 11-19 12:50 — 「ㅎㅎㅎㅎㅎㅎㅎ 인덕션이라 석쇠에 못구워서 좀 아쉽더라 ㅎㅎ」
   - 게시물: [W46-threads-1117](https://www.threads.com/@khsjelly_funny/post/Df2Cig8md9h) · 사유: 불만일 수 있음 · [댓글 보기](https://www.threads.com/@gyul___mom/post/Df6J9amGpjt)
+
+## 2026-11-20 19:44 KST 실행
+
+- [ ] 🟡 **미분류** · @5rola80 · 11-20 10:49 — 「어제ㅜㅠ일단 추우니... 너무 힘든거같아」
+  - 게시물: [W47-threads-1119](https://www.threads.com/@khsjelly_funny/post/Df7NzPPGWm9) · 사유: 규칙에 안 걸림 · [댓글 보기](https://www.threads.com/@5rola80/post/Df8g3t0iA-g)
