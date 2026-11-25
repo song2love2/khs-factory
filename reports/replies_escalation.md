@@ -65,3 +65,8 @@
 
 - [ ] 🟡 **미분류** · @5rola80 · 11-20 10:49 — 「어제ㅜㅠ일단 추우니... 너무 힘든거같아」
   - 게시물: [W47-threads-1119](https://www.threads.com/@khsjelly_funny/post/Df7NzPPGWm9) · 사유: 규칙에 안 걸림 · [댓글 보기](https://www.threads.com/@5rola80/post/Df8g3t0iA-g)
+
+## 2026-11-26 04:03 KST 실행
+
+- [ ] 🟡 **부정 뉘앙스** · @okinawara._.85 · 11-25 22:19 — 「나는 주말이 더 싫어서... 고비가 점점 오는중야ㅋㅋㅋㅋㅋㅋㅋㅋ」
+  - 게시물: [W48-threads-1125](https://www.threads.com/@khsjelly_funny/post/DgKiDvEmdtY) · 사유: 불만일 수 있음 · [댓글 보기](https://www.threads.com/@okinawara._.85/post/DgKn2XsoJ92)

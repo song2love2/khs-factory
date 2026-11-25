@@ -170,6 +170,12 @@
    "action": "replied",
    "tpl": "u03",
    "reply_id": "18291479968295504"
+  },
+  "18138242521823125": {
+   "at": "2026-11-26T04:03:38+09:00",
+   "action": "escalated",
+   "cls": "yellow",
+   "cat": "부정 뉘앙스"
   }
  },
  "user_last": {
