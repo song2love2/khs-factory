@@ -176,6 +176,12 @@
    "action": "escalated",
    "cls": "yellow",
    "cat": "부정 뉘앙스"
+  },
+  "17937301416410630": {
+   "at": "2026-11-28T03:46:26+09:00",
+   "action": "escalated",
+   "cls": "yellow",
+   "cat": "아이 언급(어린이 방침)"
   }
  },
  "user_last": {

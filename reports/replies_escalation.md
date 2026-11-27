@@ -70,3 +70,8 @@
 
 - [ ] 🟡 **부정 뉘앙스** · @okinawara._.85 · 11-25 22:19 — 「나는 주말이 더 싫어서... 고비가 점점 오는중야ㅋㅋㅋㅋㅋㅋㅋㅋ」
   - 게시물: [W48-threads-1125](https://www.threads.com/@khsjelly_funny/post/DgKiDvEmdtY) · 사유: 불만일 수 있음 · [댓글 보기](https://www.threads.com/@okinawara._.85/post/DgKn2XsoJ92)
+
+## 2026-11-28 03:46 KST 실행
+
+- [ ] 🟡 **아이 언급(어린이 방침)** · @ahn_ssong · 11-27 22:40 — 「아 너무 어렵다 그치만 우리아들에겐 쉽지 젤리!」
+  - 게시물: [W48-threads-1127](https://www.threads.com/@khsjelly_funny/post/DgPvFCKEw5Q) · 사유: 보류 규칙: 아이 언급(어린이 방침) · [댓글 보기](https://www.threads.com/@ahn_ssong/post/DgPzvUoE4QK)
